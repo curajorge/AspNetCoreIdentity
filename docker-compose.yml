@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  aspnetcoreidentity:
+    image: ${DOCKER_REGISTRY}aspnetcoreidentity
+    build:
+      context: .
+      dockerfile: AspNetCoreIdentity/Dockerfile
