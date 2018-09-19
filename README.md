@@ -1,7 +1,6 @@
 # AspNetCoreIdentity
-Core Identity Template 
 
-The fallowing is a authentication and user role management implementation for starting projects. Build using the Identity Framework to implement a user's roles and claims membership service and the Entity Framework to implement a object-relational mapping service.
+The fallowing is an authentication and user role management implementation for starting projects. Build using the Identity Framework to implement a user's roles and claims membership service and the Entity Framework to implement a object-relational mapping service.
 
 ## How to run:
 
@@ -27,6 +26,15 @@ With the help EF Core, using the Code-First approach we will create a migration,
   
 4. Run Application using Visual Studio 2017
 
+## SwaggerIO:
+
+in order to access API documentation with the help of SwaggerIO go to:
+
+```
+http://localhost:49810/swagger/index.html
+
+```
+
 ## Modifying User Model:
 
-## Running from Docker Image
+## Running from Docker Image:
