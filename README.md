@@ -4,7 +4,7 @@ The fallowing is an authentication and user role management implementation for s
 
 ## How to run:
 
-Before running this API, a database need to be setup. 
+Before running this API, a database needs to be setup. 
 With the help EF Core, using the Code-First approach we will create a migration, and create DB instance in SQL Server using a previously created migration.
 
 1. Edit Connection String from 'appsettings.json' to match your DB instance.
